@@ -12,6 +12,7 @@ class UserClass extends React.Component{
             </div>
         )
     }
-}
+} 
+//user class update
 
 export default UserClass
