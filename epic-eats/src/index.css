@@ -1,0 +1,71 @@
+body {
+  margin: 10;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  
+}
+.App-logo{
+  width: 60px;
+  height: 60px;
+  margin: 15px 15px;
+}
+.navitems >  ul{
+  display: flex;
+  font-size: 24px;
+}
+.navitems>ul>li{
+  padding: 10px;
+  list-style: none;
+  padding: 10px 20px;
+}
+.resCard{
+  width: 200px;
+ 
+  border: 1px solid black;
+  background-color:#f0f0f0;
+  padding: 5px;
+  margin: 5px;
+}
+.resCard:hover{
+cursor: pointer;
+}
+.search{
+  padding: 10px ;
+}
+.resCardImg{
+width: 100%;
+height: 140px;
+}
+.resContainer{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+.Shimmer-cont{
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmerCard{
+  width: 200px;
+  height: 200px;
+  background-color:#f0f0f0;
+  padding: 5px;
+  margin: 5px;
+}
